@@ -1,0 +1,367 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello", "Hi", "Hey", "Good morning", "Good evening", "What's up",
+        "Howdy", "Greetings", "Hi there", "Hey there", "hii", "hiii",
+        "heyyy", "yo", "sup", "hai", "hy", "good day", "morning", "evening",
+        "hey hey", "what's good", "howdy partner", "salutations"
+      ],
+      "responses": [
+        "Hello! Great to see you. How can I help you today? 😊",
+        "Hi there! I'm ARIA, your intelligent assistant. What's on your mind?",
+        "Hey! Welcome. What can I help you with?",
+        "Greetings! I'm here and ready to help. What do you need?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Talk to you later", "I'm leaving",
+        "Farewell", "See ya", "Have a good day", "Take care", "Catch you later",
+        "cya", "ttyl", "see u", "later", "bye bye", "good night", "gn", "tc",
+        "peace out", "signing off", "i'm done", "that's all"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day! 👋",
+        "See you later! Come back anytime you need help.",
+        "Farewell! It was a pleasure chatting with you. Take care!",
+        "Bye! Wishing you a great rest of your day! 😊"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot", "Many thanks",
+        "Appreciate it", "Thank you so much", "Cheers", "Much appreciated",
+        "thx", "ty", "tysm", "thank u", "thanks a bunch", "you're awesome",
+        "that helped", "great help", "awesome thanks", "perfect thanks"
+      ],
+      "responses": [
+        "You're welcome! Happy to help anytime. 😊",
+        "No problem at all! Is there anything else I can help you with?",
+        "My pleasure! Feel free to ask if you have more questions.",
+        "Glad I could help! Let me know if there's anything else you need."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name", "Who are you", "What should I call you",
+        "Tell me your name", "What's your name", "What do people call you",
+        "Do you have a name", "Introduce yourself", "who are u", "who r u",
+        "what are you", "are you a bot", "are you human", "are you an AI",
+        "are you real", "what kind of bot are you", "who made you",
+        "tell me about yourself", "introduce urself", "what r u",
+        "are you a robot", "are you a machine", "who created you",
+        "who built you", "are you aria", "what is aria"
+      ],
+      "responses": [
+        "I'm ARIA — Adaptive Responsive Intelligent Assistant! Nice to meet you! 🤖",
+        "My name is ARIA. I'm your intelligent virtual assistant here to help!",
+        "Call me ARIA! I'm an AI-powered assistant designed to answer questions and assist you.",
+        "I go by ARIA. I'm an AI assistant — always ready to help! Ask me anything."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours", "When are you open", "What time do you close",
+        "Are you available 24 7", "When can I talk to you", "What are your business hours",
+        "Are you open now", "What time do you operate", "when do you work",
+        "are you always available", "what time are you online", "24 hours",
+        "can i talk to you anytime", "when are you active"
+      ],
+      "responses": [
+        "I'm available 24/7, 365 days a year! No closing times for me. 🕐",
+        "Great news — I never sleep! You can chat with me anytime, day or night.",
+        "Unlike traditional support, I'm online around the clock. Ask away anytime!",
+        "I'm always here for you, 24 hours a day, 7 days a week. No holidays!"
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "What products do you offer", "Tell me about your products", "What do you sell",
+        "What services are available", "Show me your catalog", "What can I buy",
+        "What items do you have", "List your products", "What are your offerings",
+        "what do you have", "show me products", "product list", "what items",
+        "what goods", "what merchandise", "what are your services"
+      ],
+      "responses": [
+        "We offer a wide range of products including electronics, clothing, home goods, and more! Ask me about a specific category for details.",
+        "Our catalog includes tech gadgets, fashion, home essentials, and lifestyle products. What interests you most?",
+        "We have something for everyone! From electronics to home decor. Would you like to know more about a specific category?",
+        "Our product lineup spans multiple categories. Feel free to ask about electronics, clothing, or any other category!"
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does it cost", "What is the price", "Tell me about pricing",
+        "How much is it", "What are your rates", "Is it expensive",
+        "What does it cost", "Pricing information", "How much do you charge",
+        "how much", "price range", "cost of product", "how expensive is it",
+        "is it free", "do you charge", "what are the fees", "subscription cost",
+        "affordable price", "cheap product", "budget options",
+        "how much would it be", "price list", "fee structure"
+      ],
+      "responses": [
+        "Our pricing varies by product and service. Generally, we offer competitive rates starting from $9.99. Would you like specifics?",
+        "We have flexible pricing plans to suit all budgets. Can you tell me what you're interested in so I can give you an accurate quote?",
+        "Pricing depends on what you're looking for! We have options for every budget. What specific product or service are you asking about?",
+        "We strive to offer the best value for money. Prices start from just $9.99. Ask about a specific item for exact pricing!"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint", "I'm not happy", "This is terrible", "Bad service",
+        "I want to complain", "I'm disappointed", "This is unacceptable",
+        "Very unhappy", "Poor quality", "Not working properly", "I'm frustrated",
+        "this is wrong", "this is bad", "not satisfied", "dissatisfied",
+        "worst service", "terrible experience", "i'm angry", "this sucks",
+        "broken product", "doesn't work", "failed delivery", "issue with order",
+        "problem with my order", "defective item", "damaged product"
+      ],
+      "responses": [
+        "I'm sorry to hear that! I take all feedback seriously. Please tell me what went wrong and I'll do my best to help.",
+        "I sincerely apologize for the inconvenience. Could you describe the issue so we can resolve it promptly?",
+        "Thank you for bringing this to our attention. Your satisfaction matters deeply. What happened and how can we make it right?",
+        "I'm really sorry you had a bad experience. Let's fix this — please share the details and I'll escalate it right away."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "I need help", "Can you help me", "Help me", "I need assistance",
+        "Assist me", "support me", "how can you help", "I'm stuck",
+        "need guidance", "i need support", "can u help", "help please",
+        "assist me please", "need help with something", "how do i do this",
+        "i don't know what to do", "confused", "lost", "not sure what to do"
+      ],
+      "responses": [
+        "I'd be happy to assist! I can help with: 🛍️ Products & Pricing, 📦 Order Tracking, 🔄 Returns & Shipping, 😄 Jokes & Fun, 📞 Contact Info, and much more. What do you need?",
+        "Sure thing! I'm ARIA and I can help with orders, products, shipping, pricing, complaints, and general questions. What's up?",
+        "Need help? You've come to the right place! Ask me about products, orders, returns, pricing, or just say hello. 😊",
+        "I'm here to help! I handle customer queries, product info, order tracking, returns, and even tell jokes. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "general_knowledge",
+      "patterns": [
+        "what is java", "what is python", "what is google", "what is amazon",
+        "what is microsoft", "what is apple", "what is facebook", "what is twitter",
+        "what is instagram", "what is youtube", "what is netflix", "what is uber",
+        "what is AI", "what is artificial intelligence", "what is machine learning",
+        "what is deep learning", "what is blockchain", "what is bitcoin",
+        "what is cryptocurrency", "what is the internet", "what is wifi",
+        "what is coding", "what is programming", "what is software",
+        "what is hardware", "what is an algorithm", "what is a database",
+        "what is cloud computing", "what is cybersecurity", "what is data science",
+        "what is big data", "what is IoT", "what is internet of things",
+        "what is 5G", "what is AR", "what is VR", "what is augmented reality",
+        "what is virtual reality", "what is chatgpt", "what is openai",
+        "explain java", "explain python", "explain AI", "define machine learning",
+        "tell me about google", "tell me about python", "describe AI",
+        "who is elon musk", "who is bill gates", "who is mark zuckerberg",
+        "who is jeff bezos", "who is steve jobs", "who is tim cook",
+        "what is NASA", "what is Wikipedia", "what is LinkedIn",
+        "what is a smartphone", "what is an app", "what is an API",
+        "what is HTML", "what is CSS", "what is JavaScript", "what is React",
+        "what is Node", "what is Flask", "what is Django", "what is numpy",
+        "what is pandas", "what is scikit learn", "what is tensorflow",
+        "what does that mean", "what does it mean", "can you explain",
+        "explain this", "define this", "what does this word mean",
+        "what is the meaning of", "meaning of", "definition of"
+      ],
+      "responses": [
+        "Great question! I'm ARIA, a customer support assistant. For in-depth knowledge on that topic, I'd recommend Wikipedia or a quick Google search — they'll give you the most accurate answer. 📚 Meanwhile, I'm here to help with orders, products, pricing, and support!",
+        "That's a knowledge question! My specialty is customer support — orders, products, pricing, and returns. For general topics like that, Wikipedia or Google Search will give you the best answer. Need help with something here?",
+        "I appreciate your curiosity! 🌟 For that topic, a Google search or Wikipedia article would be perfect. Here, I specialize in customer support — products, orders, shipping, and pricing. How can I help you today?",
+        "Interesting question! As a customer support assistant, I'm best equipped for shopping and account assistance. For general knowledge, I'd point you to Google or Wikipedia. Is there anything I can help you with here? 😊"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather", "How's the weather today", "Will it rain",
+        "Weather forecast", "Is it going to be hot", "Temperature today",
+        "Weather in my city", "What's the weather like", "is it raining",
+        "weather update", "today's weather", "current weather", "how hot is it",
+        "how cold is it", "is it sunny", "is it cloudy", "snow forecast",
+        "temperature outside", "weather report", "weather this week"
+      ],
+      "responses": [
+        "I don't have real-time weather data, but I'd recommend checking weather.com or your phone's weather app for accurate forecasts! ☀️🌧️",
+        "For live weather updates, check Google Weather or your local news app! Type your city into Google for instant results. 🌤️",
+        "I'm a customer support assistant — weather isn't my specialty! For accurate forecasts, try weather.com or AccuWeather. 🌈"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Say something funny", "Make me laugh", "I want to hear a joke",
+        "Got any jokes", "Humor me", "Be funny", "Crack a joke", "joke please",
+        "tell joke", "funny joke", "i want a joke", "say a joke", "another joke",
+        "one more joke", "entertain me", "make me smile", "lol tell me one",
+        "i'm bored", "cheer me up", "brighten my day"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything! 😄",
+        "Why can't you give Elsa a balloon? Because she'll let it go! ❄️ Hope that brightened your day!",
+        "I told my computer I needed a break. Now it won't stop sending me Kit-Kat ads. 😂",
+        "Why did the developer go broke? Because he used up all his cache! 💸",
+        "What do you call a fake noodle? An impasta! 🍝",
+        "Why do programmers prefer dark mode? Because light attracts bugs! 🐛",
+        "What do you call a computer that sings? A Dell! 🎵"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's the latest news", "Any news today", "Current events",
+        "What's happening in the world", "Tell me the news", "Latest headlines",
+        "Breaking news", "What's new", "news update", "today's news",
+        "world news", "top news", "recent news", "news feed",
+        "what happened today", "latest updates", "current affairs"
+      ],
+      "responses": [
+        "I don't have live news access, but you can get the latest headlines from BBC, CNN, or Google News! 📰",
+        "For real-time news, I'd recommend checking Google News, BBC, or Reuters for the most up-to-date stories. 🌍",
+        "News is best served fresh — check Google News or your favorite news app! I'm here for support questions. 📱"
+      ]
+    },
+    {
+      "tag": "reminder",
+      "patterns": [
+        "Set a reminder", "Remind me", "Can you remind me", "Set an alarm",
+        "Don't let me forget", "Alert me", "Schedule a reminder",
+        "remind me to", "set reminder", "notify me", "alarm for", "remember to",
+        "can you set a reminder", "i need to remember", "schedule this"
+      ],
+      "responses": [
+        "I can't set reminders directly, but your phone's built-in reminders (Google Assistant / Siri) work great! 🔔",
+        "For reminders, try Google Keep, Apple Reminders, or simply ask Siri/Google Assistant! They'll handle it perfectly. ⏰",
+        "I'm a chat assistant without reminder capabilities, but your phone's clock or calendar app can set reminders in seconds! 📅"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order", "Track my order", "Order status", "When will my order arrive",
+        "My order hasn't arrived", "Check my order", "Order tracking",
+        "my order is late", "where's my package", "package not delivered",
+        "order not received", "where is my package", "delivery status",
+        "is my order shipped", "order delayed", "track package", "shipping status",
+        "when will it arrive", "expected delivery", "package tracking",
+        "order hasn't come", "still waiting for order"
+      ],
+      "responses": [
+        "To track your order, please provide your order number and I'll look it up! You can also check your email for a tracking link. 📦",
+        "Order tracking is easy! Share your order number here, or check your confirmation email for a direct tracking link. 🔍",
+        "I'd be happy to help track your order! Please share your order ID, or visit our order tracking page with your confirmation email.",
+        "Let me help you find your package! Share your order number and I'll check the status right away. 🚚"
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy", "Can I return this", "How do I return an item",
+        "Return process", "Refund policy", "I want to return something",
+        "Return guidelines", "How to get a refund", "can i get a refund",
+        "i want my money back", "how do returns work", "return window",
+        "30 day return", "exchange policy", "can i exchange", "product return",
+        "return an item", "get refund", "money back guarantee"
+      ],
+      "responses": [
+        "We accept returns within 30 days of purchase. Items should be unused and in original packaging. Want me to start a return for you? 🔄",
+        "Our return policy is simple: 30 days, no questions asked for most items! Keep your receipt and original packaging. How can I help?",
+        "You can return most items within 30 days. Just keep the receipt and original packaging. We'll process your refund within 5-7 business days.",
+        "Returns are easy! We accept returns within 30 days. Items should be unused and in original packaging. Contact us to get a return label! 📬"
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "How long does shipping take", "What are your shipping options", "Do you ship internationally",
+        "Free shipping", "Shipping cost", "How much is delivery", "When will it be delivered",
+        "Shipping policy", "Express shipping available", "fast shipping", "overnight delivery",
+        "same day delivery", "shipping time", "delivery options", "how fast", "quick delivery",
+        "international shipping", "worldwide shipping", "delivery fee", "shipping charges",
+        "shipping rates", "delivery timeline", "how soon will i get it"
+      ],
+      "responses": [
+        "We offer standard (5-7 days), express (2-3 days), and overnight shipping! Free shipping on orders over $50. 🚚",
+        "Shipping options: Standard (5-7 days, free over $50), Express (2-3 days, $9.99), Overnight ($19.99). Which works for you?",
+        "Yes, we ship internationally! Domestic orders arrive in 5-7 days standard. International shipping takes 10-14 business days.",
+        "We've got flexible shipping! Standard, express, and overnight available. Orders over $50 qualify for free standard shipping! 📦"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you", "What is your phone number", "Customer service contact",
+        "Email address", "How do I reach you", "Support contact",
+        "Contact information", "How to get in touch", "Talk to a human",
+        "contact info", "phone number", "email id", "customer support number",
+        "live agent", "speak to someone", "human agent", "real person",
+        "contact details", "reach support", "call you", "get in touch",
+        "i want to talk to someone", "connect me to support"
+      ],
+      "responses": [
+        "You can reach us via email at support@example.com, by phone at 1-800-EXAMPLE, or through our live chat. We're here Mon-Fri 9AM-6PM EST! 📞",
+        "Contact our support team at support@example.com or call 1-800-EXAMPLE. For urgent issues, our live chat has the fastest response time!",
+        "We're available via email (support@example.com), phone (1-800-EXAMPLE), or social media. Happy to help in any channel!",
+        "Reach us anytime via email at support@example.com. For immediate help, our phone line 1-800-EXAMPLE is open Mon-Fri, 9AM-6PM. 💬"
+      ]
+    },
+    {
+      "tag": "about_us",
+      "patterns": [
+        "Tell me about your company", "What does your company do",
+        "About you", "Company info", "What is your business",
+        "Tell me more about ARIA", "What is this service", "Background information",
+        "company background", "who are you guys", "what company is this",
+        "what does this company do", "about this website", "about this service",
+        "about this chatbot", "company overview"
+      ],
+      "responses": [
+        "We're a technology company dedicated to making AI assistance accessible to everyone! ARIA is our flagship intelligent assistant. 🌟",
+        "Our company builds smart AI solutions to help people get things done faster. ARIA is at the heart of our customer experience platform.",
+        "We're passionate about AI and customer service! Our mission is to deliver helpful, friendly, and intelligent support 24/7 through ARIA.",
+        "Founded with the vision of transforming customer interactions, we build AI-powered assistants like ARIA to serve you better every day! 🚀"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do", "What are your capabilities", "What do you know",
+        "What are your features", "What skills do you have", "How smart are you",
+        "What topics can you help with", "Show me what you can do",
+        "What are you capable of", "what can u do", "what do you do",
+        "how can you help me", "what can you help with", "what can i ask you",
+        "what do you support", "list your features", "what are your functions"
+      ],
+      "responses": [
+        "I can help with: 🛍️ Products & Pricing | 📦 Orders & Tracking | 🔄 Returns & Refunds | 🚚 Shipping Options | 😄 Jokes | 📞 Contact Info | ❓ General Questions. What do you need?",
+        "My capabilities: answer questions, provide product info, track orders, explain return policies, shipping details, tell jokes, and hold friendly conversations! Ask away!",
+        "I'm pretty versatile! I handle customer queries, provide info on products/pricing/shipping, assist with orders and returns, share jokes, and much more.",
+        "Here's what I do best: answer your questions, provide company info, assist with orders/returns, share jokes, and help you find resources. What would you like to explore? 😊"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "asdfgh", "xyzabc", "qwerty random stuff", "blah blah blah", "jkhjkhjkh"
+      ],
+      "responses": [
+        "I'm not sure I understand that fully. Could you rephrase? I can help with orders, products, pricing, shipping, returns, or just a friendly chat! 🤔",
+        "Hmm, that one stumped me! Try asking about products, orders, pricing, shipping, or type 'help' to see what I can do.",
+        "I didn't quite catch that. Feel free to ask about products, orders, shipping, or anything else I can assist with!",
+        "That's outside my current knowledge. Try asking: 'What can you do?' for a full list of things I can help with! 💡"
+      ]
+    }
+  ]
+}
